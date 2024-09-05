@@ -9,6 +9,7 @@ import BuyerProfile from './components/BuyerProfile';
 import Contracts from './components/Contracts';
 import Messages from './components/Messages';
 import Footer from './components/Footer';
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/buyer-profile" element={<BuyerProfile />} />
         <Route path="/contracts" element={<Contracts />} />
         <Route path="/messages" element={<Messages />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
       </Routes>
       <Footer />
     </Router>
