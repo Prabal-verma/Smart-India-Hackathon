@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
+import Header from './components/header';
 import Home from './components/Home';
 import GetStarted from './components/GetStarted';
 import FarmerProfile from './components/FarmerProfile'; // Add these imports
